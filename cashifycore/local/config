@@ -1,0 +1,14 @@
+Host cashifycore
+        HostName github.com
+
+Host cashifyetcd
+        HostName github.com
+
+Host cashifycache
+        HostName github.com
+
+Host cashifyrestclient
+        HostName github.com
+
+Host cashifylogger
+        HostName github.com
