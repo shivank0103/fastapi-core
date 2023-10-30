@@ -11,7 +11,7 @@ setup(
     name='cashifycore',
     version='0.0.1',
     description='Core for Fast API projects',
-    url='https://github.com/saket-cashify/cashify-core-python-fastapi',
+    url='https://github.com/shivank0103/fastapi-core-project',
     author='Shivank',
     author_email='shivank0103@gmail.com',
     license='unlicense',
@@ -20,10 +20,10 @@ setup(
     long_description=README,
     long_description_content_type="text/markdown",
     install_requires=[
-        'cashifypythoncachingframework @ git+ssh://git@cashifycache/reglobe/cashify-python-caching.git',
-        'cashifypythonetcd @ git+ssh://git@cashifyetcd/reglobe/cashify-python-etcd.git',
-        'cashifypythonrestclient @ git+ssh://git@cashifyrestclient/reglobe/cashify-python-rest-client.git',
-        'cashifypythonlogger @ git+ssh://git@cashifylogger/reglobe/cashify-python-logger.git',
+        'python_caching_framework @ git+ssh://git@github.com/shivank0103/python-caching-project.git',
+        'python_etcd @ git+ssh://git@github.com/shivank0103/python-etcd-project.git',
+        'python_restclient @ git+ssh://git@github.com/shivank0103/python-restclient-project.git',
+        'python_logger @ git+ssh://git@github.com/shivank0103/python-logger-project.git',
         'mysql-connector==2.2.9',
         'PyJWT==2.5.0'
     ],
