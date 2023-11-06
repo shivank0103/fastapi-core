@@ -20,10 +20,10 @@ setup(
     long_description=README,
     long_description_content_type="text/markdown",
     install_requires=[
-        'python_caching_framework @ git+ssh://git@github.com/shivank0103/python-caching-project.git',
-        'python_etcd @ git+ssh://git@github.com/shivank0103/python-etcd-project.git',
-        'python_restclient @ git+ssh://git@github.com/shivank0103/python-restclient-project.git',
-        'python_logger @ git+ssh://git@github.com/shivank0103/python-logger-project.git',
+        'cashifypythoncachingframework @ git+ssh://git@github.com/shivank0103/python-caching-project.git',
+        'cashifypythonetcd @ git+ssh://git@github.com/shivank0103/python-etcd-project.git',
+        'cashifypythonrestclient @ git+ssh://git@github.com/shivank0103/python-restclient-project.git',
+        'cashifypythonlogger @ git+ssh://git@github.com/shivank0103/python-logger-project.git',
         'mysql-connector==2.2.9',
         'PyJWT==2.5.0'
     ],
