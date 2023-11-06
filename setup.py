@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name='cashifycore',
+    name='fastapi_core',
     version='0.0.1',
     description='Core for Fast API projects',
     url='https://github.com/shivank0103/fastapi-core-project',
